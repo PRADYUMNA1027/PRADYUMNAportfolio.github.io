@@ -1,0 +1,123 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #1b2a47;
+}
+
+/* Navigation styles */
+header {
+    padding: 20px;
+    background-color: #22395d;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.get-started {
+    background-color: #1cbdb5;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.get-started:hover {
+    background-color: #17a699;
+}
+
+/* Hero section styles */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.cta-buttons {
+    margin-top: 30px;
+}
+
+.cta-buttons .btn {
+    background-color: #1cbdb5;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.cta-buttons .btn-secondary {
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.hero-image {
+    max-width: 50%;
+    /* Add your image or illustration here */
+}
+
+/* Clients section styles */
+.clients {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #162335;
+}
+
+.clients img {
+    max-height: 50px;
+    filter: grayscale(100%);
+    opacity: 0.6;
+}
+
+.clients img:hover {
+    filter: none;
+    opacity: 1;
+}

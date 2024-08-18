@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Your Institution</title>
+</head>
+<body>
+<header>
+<div class="logo">
+<img src=" " alt="Institution Logo">
+</div>
+<div class="header-content">
+<h1>Institution Name</h1>
+<p>Affiliation</p>
+<p>Address</p>
+</div>
+</header>
+<nav>
+<ul class="menu">
+<li><a href="#">Home</a></li>
+<li class="submenu">
+<a href=" ">Departments</a>
+<ul class="submenu-content">
+<li><a href=" ">Department of CSE</a></li>
+<li><a href=" ">Department of ISE</a></li>
+</ul>
+</li>
+<li><a href="#">Resources</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</nav>
+<main>
+ABOUT COLLEGE
+</main>
+<footer>
+<div class="social-links">
+<a href="#">Facebook</a>
+<a href="#">Twitter</a>
+<a href="#">Instagram</a>
+</div>
+<p>&copy; 2023 Your Institution. All rights reserved.</p>
+</footer>
+</body>
+</html>
